@@ -1,0 +1,26 @@
+DISEÑO:
+
+3 Clases:
+Jugador (Propone la palabra o Adivina la palabra dependiendo del turno)
+Juego (genera los jugadores y controla los intentos)
+
+Jugador:
+Atributos:
+int id;
+Int intentos;
+Metodos:
+proponePalabra();
+proponeletra();
+
+
+Juego:
+Atributos:
+Int partidas;
+Jugador jugador1;
+Jugador jugador2;
+bool adivinaPalabra;
+int[] ganador = new int[5];//guardar la victoria de las 5 partidas
+
+Metodos:
+simulaJugada();
+simulaPartida();
